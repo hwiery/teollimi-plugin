@@ -1,0 +1,34 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "teollimi",
+  "version": "1.0.0",
+  "description": "Publicly reported data breaches by company, recent breaches, open settlements and what to do after a breach notice, with sources.",
+  "author": { "name": "Teollimi", "email": "goldenrod8888@gmail.com", "url": "https://teollimi.com" },
+  "homepage": "https://teollimi.com/en/ai",
+  "repository": "https://github.com/hwiery/teollimi-plugin",
+  "license": "MIT",
+  "keywords": ["data breach", "privacy", "security", "settlement"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Teollimi",
+        "shortDescription": "Data breach history, open settlements and next steps, with sources",
+        "longDescription": "Ask whether a company or the services you use have had a data breach, what leaked, whether compensation or fines followed, which US settlements are still taking claims, and what to do after a breach notice. Answers come from incidents Teollimi confirmed through press reports and official announcements in Korea, Japan, the US and elsewhere, each with its source and a link to the full page. Read-only, no sign-in.",
+        "developerName": "Teollimi",
+        "category": "Lifestyle",
+        "capabilities": ["Read"],
+        "websiteURL": "https://teollimi.com/en/ai",
+        "privacyPolicyURL": "https://teollimi.com/en/privacy",
+        "termsOfServiceURL": "https://teollimi.com/en/terms",
+        "defaultPrompt": [
+          "Has Ticketmaster had a data breach? Give me sources.",
+          "I use Coupang, Netflix and AT&T. Were any of them breached?",
+          "Which data breach settlements can I still claim?"
+        ],
+        "brandColor": "#0B1F3A",
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/logo.png"
+      }
+    }
+  }
+}

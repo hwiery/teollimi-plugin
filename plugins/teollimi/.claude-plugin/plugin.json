@@ -1,0 +1,22 @@
+{
+  "name": "teollimi",
+  "version": "1.0.0",
+  "description": "Look up publicly reported data breaches by company, recent breaches, open settlements and what to do after a breach notice, with sources, via Teollimi.",
+  "author": {
+    "name": "Teollimi",
+    "email": "goldenrod8888@gmail.com",
+    "url": "https://teollimi.com"
+  },
+  "homepage": "https://teollimi.com/en/ai",
+  "repository": "https://github.com/hwiery/teollimi-plugin",
+  "license": "MIT",
+  "keywords": [
+    "data breach",
+    "privacy",
+    "security",
+    "settlement",
+    "korea",
+    "japan"
+  ],
+  "privacyPolicyUrl": "https://teollimi.com/en/privacy"
+}

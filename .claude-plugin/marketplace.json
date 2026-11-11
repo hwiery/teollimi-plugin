@@ -1,0 +1,17 @@
+{
+  "name": "teollimi",
+  "owner": {
+    "name": "Teollimi",
+    "email": "goldenrod8888@gmail.com"
+  },
+  "metadata": {
+    "description": "Teollimi: data breach history, open settlements and next steps, with sources."
+  },
+  "plugins": [
+    {
+      "name": "teollimi",
+      "source": "./plugins/teollimi",
+      "description": "Data breach history, open settlements and next steps, with sources."
+    }
+  ]
+}

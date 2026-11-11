@@ -1,0 +1,5 @@
+{
+  "mcpServers": {
+    "teollimi": { "type": "http", "url": "https://teollimi.com/mcp" }
+  }
+}

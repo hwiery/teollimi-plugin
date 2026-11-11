@@ -1,0 +1,12 @@
+{
+  "name": "teollimi",
+  "interface": { "displayName": "Teollimi" },
+  "plugins": [
+    {
+      "name": "teollimi",
+      "source": { "source": "local", "path": "./plugins/teollimi" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "category": "Lifestyle"
+    }
+  ]
+}
